@@ -70,7 +70,9 @@ function App() {
     if (event.target.classList.contains('modal')) {
       setState((prevState) => ({
         ...prevState,
-        showModal: false
+        showModal: false,
+        fullImage: '',
+        imageText: ''
       }));
     }
   }
